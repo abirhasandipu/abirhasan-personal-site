@@ -1,0 +1,18 @@
+.skillsParentDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsBody {
+  width: 80vw;
+}
+
+.title {
+  margin: 10px 20px;
+  color: #313131;
+}
+
+.skilllist li {
+  margin: 8px 10px;
+  color: #4e4e4e;
+}

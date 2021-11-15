@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "projectType": "React",
+    "title": "This site",
+    "description": "Lorem ipsum is a dummy text for using in websites.",
+    "image": "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "githublink": "https://www.google.com/",
+    "livelink": "https://www.google.com/"
+  },
+
+  {
+    "id": 2,
+    "projectType": "React",
+    "title": "Book Sell and Exchange",
+    "description": "Lorem ipsum is a dummy text for using in websites.",
+    "image": "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "githublink": "https://www.google.com/",
+    "livelink": "https://www.google.com/"
+  },
+
+  {
+    "id": 3,
+    "projectType": "React",
+    "title": "I dont know!",
+    "description": "Lorem ipsum is a dummy text for using in websites.",
+    "image": "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "githublink": "https://www.google.com/",
+    "livelink": "https://www.google.com/"
+  },
+
+  {
+    "id": 4,
+    "projectType": "Mern",
+    "title": "MERN Project 1",
+    "description": "Lorem ipsum is a dummy text for using in websites.",
+    "image": "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "githublink": "https://www.google.com/",
+    "livelink": "https://www.google.com/"
+  }
+]

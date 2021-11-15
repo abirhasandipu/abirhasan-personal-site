@@ -1,0 +1,16 @@
+.projectsRowBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.projectsRowContainer {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.projectTypeHeading {
+  margin: 0.5em 1em;
+}

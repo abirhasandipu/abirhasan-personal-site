@@ -1,0 +1,52 @@
+.homeParentDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.homeBody {
+  width: 80vw;
+}
+
+.homeIntro {
+  padding: 2em 5em 1em 2em;
+  background-color: #fff;
+}
+
+.hr {
+  width: 60%;
+  margin: auto;
+  color: #dfdfdf;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.nameAbir {
+  color: #00ff2a;
+  font-weight: 500;
+}
+
+.webDev {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+
+.introPara {
+  margin: 1em 1em 1em 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #757575;
+}
+
+/* Cards */
+
+.cardsContainer {
+  display: flex;
+  padding: 0em 2em;
+  justify-content: space-around;
+  padding-right: 8em;
+  padding-left: 5em;
+}

@@ -1,0 +1,19 @@
+.projectsParentDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectsBody {
+  width: 80vw;
+}
+
+.projectsBody img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* .projectsRowContainer {
+  overflow-x: auto;
+  white-space: nowrap;
+} */

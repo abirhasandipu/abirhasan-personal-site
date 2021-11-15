@@ -1,0 +1,13 @@
+.blogParentDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.blogBody {
+  width: 80vw;
+}
+
+.title {
+  color: #4e4e4e;
+  margin: 20px;
+}
