@@ -11,14 +11,18 @@ import skillsIcon from "../../assets/images/cardIcons/2skills.png";
 import experienceIcon from "../../assets/images/cardIcons/3experience.png";
 import researchIcon from "../../assets/images/cardIcons/4research.png";
 
-function Home() {
+function Home({ isPortrait }) {
   return (
     <>
       {/* <div className={classes.homeParentDiv}>
        
        <div className={classes.homeBody}> */}
       {/* Cards */}
-      <div className={classes.cardsContainer}>
+      <div
+        className={
+          isPortrait ? classes.cardsContainerMobile : classes.cardsContainer
+        }
+      >
         <div className={classes.topCardRow}>
           <Link to="/projects">
             <HomeCards icon={projectIcon} cardTitle={"Projects"} />

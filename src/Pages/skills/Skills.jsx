@@ -9,7 +9,6 @@ import Sidebar from "../../Components/sidebar/Sidebar";
 function Skills() {
   return (
     <div className={classes.skillsParentDiv}>
-      <Sidebar />
       {/* Skills Body */}
       <div className={classes.skillsBody}>
         <h3 className={classes.title}>HTML, CSS, JavaScript</h3>

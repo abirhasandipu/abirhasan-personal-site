@@ -9,7 +9,6 @@ import Sidebar from "../../Components/sidebar/Sidebar";
 function About() {
   return (
     <div className={classes.aboutParentDiv}>
-      <Sidebar />
       {/* About Body */}
       <div className={classes.aboutBody}>
         <div className={classes.aboutIntro}>

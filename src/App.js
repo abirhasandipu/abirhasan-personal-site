@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 
 //css
 import classes from "./Pages/home/home.module.css";
@@ -15,14 +16,23 @@ import CV from "./Pages/cv/CV";
 import Sidebar from "./Components/sidebar/Sidebar";
 
 function App() {
+  const isDesktopOrTablet = useMediaQuery({ minWidth: 768 });
+
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+  const isPortrait = useMediaQuery({ maxWidth: 767, orientation: "portrait" });
+
   return (
     <div className="App">
       <Router>
         <div className={classes.homeParentDiv}>
-          <Sidebar />
+          {!isPortrait && <Sidebar />}
           <div className={classes.homeBody}>
             <Switch>
-              <Route path="/" exact component={Home} />
+              <Route
+                path="/"
+                exact
+                component={() => <Home isPortrait={isPortrait} />}
+              />
               <Route path="/projects" component={Projects} />
               <Route path="/blog" component={Blog} />
               <Route path="/experience" component={Experience} />

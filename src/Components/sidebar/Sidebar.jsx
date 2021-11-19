@@ -19,7 +19,6 @@ function Sidebar() {
       {/* Name */}
       <h4 className={classes.name}>Md. Abir Hasan Dipu</h4>
       {/* Navigation */}
-
       <div className={classes.navDiv}>
         <ul className={classes.navigationUl}>
           <Link to="/">
@@ -37,7 +36,6 @@ function Sidebar() {
           </Link>
         </ul>
       </div>
-
       {/* Social links */}
       <div className={classes.socialDiv}>
         <ul className={classes.socialIconsUl}>
@@ -63,9 +61,10 @@ function Sidebar() {
         </ul>
       </div>
       {/* Download CV button */}
-      <Link className={classes.cvBtn} to="/cv">
+      <p style={{ color: "white" }}>Website under development.</p>
+      {/* <Link className={classes.cvBtn} to="/cv">
         <li>📃 CV</li>
-      </Link>
+      </Link> */}
     </div>
   );
 }

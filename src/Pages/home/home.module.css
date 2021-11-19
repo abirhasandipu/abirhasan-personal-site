@@ -50,3 +50,8 @@
   padding-right: 8em;
   padding-left: 5em;
 }
+
+.cardsContainerMobile {
+  flex-direction: column;
+  padding: 5px;
+}

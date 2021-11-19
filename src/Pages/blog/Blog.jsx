@@ -7,7 +7,6 @@ import Sidebar from "../../Components/sidebar/Sidebar";
 const Blog = () => {
   return (
     <div className={classes.blogParentDiv}>
-      <Sidebar />
       <h4 className={classes.title}>Haven't started blogging yet... 😔</h4>
     </div>
   );

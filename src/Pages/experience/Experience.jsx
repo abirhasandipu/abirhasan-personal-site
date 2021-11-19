@@ -7,7 +7,6 @@ import Sidebar from "../../Components/sidebar/Sidebar";
 const Experience = () => {
   return (
     <div className={classes.blogParentDiv}>
-      <Sidebar />
       <h1>Experience</h1>
     </div>
   );
