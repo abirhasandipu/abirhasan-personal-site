@@ -17,7 +17,7 @@ function Sidebar() {
         <img className={classes.proPic} src={profilePicture} alt="profile" />
       </div>
       {/* Name */}
-      <h4 className={classes.name}>Md. Abir Hasan Dipu</h4>
+      <h4 className={classes.name}>Abir Hasan</h4>
       {/* Navigation */}
       <div className={classes.navDiv}>
         <ul className={classes.navigationUl}>
@@ -27,9 +27,9 @@ function Sidebar() {
           <Link to="/projects">
             <li>🖥️ Projects</li>
           </Link>
-          <Link to="/blog">
+          {/* <Link to="/blog">
             <li>📝 Blog</li>
-          </Link>
+          </Link> */}
 
           <Link to="/about">
             <li>🧍 About</li>
@@ -63,7 +63,7 @@ function Sidebar() {
       {/* Download CV button */}
       <p style={{ color: "white" }}>Website under development.</p>
       {/* <Link className={classes.cvBtn} to="/cv">
-        <li>📃 CV</li>
+       <a> <li>📃 CV</li> </a> //google drive
       </Link> */}
     </div>
   );

@@ -27,17 +27,17 @@ function Home({ isPortrait }) {
           <Link to="/projects">
             <HomeCards icon={projectIcon} cardTitle={"Projects"} />
           </Link>
-          <Link to="/skills">
+          {/* <Link to="/skills">
             <HomeCards icon={skillsIcon} cardTitle={"Skills"} />
-          </Link>
+          </Link> */}
         </div>
         <div className={classes.bottomCardRow}>
           <Link to="/experience">
             <HomeCards icon={experienceIcon} cardTitle={"Experience"} />
           </Link>
-          <Link to="/interests">
+          {/* <Link to="/interests">
             <HomeCards icon={researchIcon} cardTitle={"Interests"} />
-          </Link>
+          </Link> */}
         </div>
         {/* </div>
       </div> */}
